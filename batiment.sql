@@ -4,9 +4,6 @@
 
 BEGIN;
 
-DROP SCHEMA IF EXISTS cadastre;
-CREATE SCHEMA cadastre ;
-
 /* CREATE TABLE */
 DROP TABLE IF EXISTS cadastre.batiment CASCADE;
 CREATE TABLE cadastre.batiment (id serial NOT NULL);
